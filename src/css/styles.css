@@ -91,5 +91,23 @@ button:disabled {
 }
 
 .form input[type='number'] {
+.homework-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 360px;
+}
+
+.homework-links a {
+  padding: 16px;
+  color: #fff;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.homework-links a:hover {
+  background-color: #6c8cff;
+}
   width: 100%;
 }
